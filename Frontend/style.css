@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  font-family: sans-serif;
+}
+h3{
+  color: white;
+}
+.topnav{
+  overflow : hidden;
+  background-color: #2d394e;
+  padding: 10px;
+}
+.topnav a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.topnav .search-container{
+  float: right;
+}
+form{
+  background-color: #151f30;
+  width: 300px;
+  height: 43px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+}
+
+input{
+  all:unset;
+  font:15px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 9px;
+}
+.thumbnail{
+  height: 350px;
+  width: 300px;
+  border-radius: 19px;
+}
+.column{
+  float:left;
+  width:20%;
+  padding:10px 10px;
+}
+.card{
+  /* position: absolute;  */
+  border-radius: 19px;
+  padding: 10px;
+  text-align: center;
+  background-color: #151f30;
+  min-width: 20%;
+  max-height:457px;
+  overflow:auto;
+}
+/* 请注意，当你对 .column 元素使用 float: left; 时，这个元素就脱离了正常的文档流。这意味着其父元素可能会“塌陷”，不再包围它的浮动子元素。你可以通过在父元素上添加 overflow: auto; 来清除浮动，强制父元素包围它的子元素。 */
+img{
+  width:70%;
+  height:auto;
+}
+div a{
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 8px;
+  text-transform: uppercase;
+}
+div{
+  color:white;
+  text-align: center;
+}
