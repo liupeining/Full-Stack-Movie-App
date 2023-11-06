@@ -20,6 +20,7 @@ The backend is built with Node.js and Express, connecting to a MongoDB database.
 - Entry point: [index.js](https://github.com/liupeining/Full-Stack-Movie-App/blob/main/Backend/index.js)
 - Dependencies: [package.json](https://github.com/liupeining/Full-Stack-Movie-App/blob/main/Backend/package.json)
 
+- Reviews Management: The backend provides a RESTful API to manage movie reviews. It includes endpoints to post, get, update, and delete reviews.
   - **Post Review**: Users can submit new reviews for movies. [See Code](https://github.com/liupeining/Full-Stack-Movie-App/blob/main/Backend/api/reviews.controller.js)
   - **Get Review**: Retrieve individual reviews by ID. [See Code](https://github.com/liupeining/Full-Stack-Movie-App/blob/main/Backend/api/reviews.controller.js)
   - **Update Review**: Users can update their reviews. [See Code](https://github.com/liupeining/Full-Stack-Movie-App/blob/main/Backend/api/reviews.controller.js)
